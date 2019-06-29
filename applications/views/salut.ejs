@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Liste EJS</title>
+    </head>
+    <body>
+        <h1>Salut</h1>
+        <p>
+            <% if(locals.error){ %>
+            <%= error %>
+            <% } %>
+        </p>
+       <form action="/" method="POST">
+          <label>Subjects: </label>
+          <textarea name="message" id="message"></textarea>
+          <button type="submit">Envoyer</button>
+       </form>
+    </body>
+</html>
