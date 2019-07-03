@@ -6,12 +6,12 @@
     </head>
  
     <body>
-        <h1>Communication avec socket.io !</h1>
+        <h1>Chat File working !</h1>
         <img src='' width="300" height="400" id="img">
         <script src="/socket.io/socket.io.js"></script>
         <script>
             var socket = io.connect('http://localhost:8080');
-            
+            /*
             socket.on('image', (image , buffer) =>{
                 if(image){
                     console.log('image from client side');
@@ -21,7 +21,11 @@
                     //console.log(buffer);
                 }
             });
-            
+            */
+           socket.on('image', (imgaeSending) =>{
+               var imgsrc = document.getElementById('img');
+               imgsrc.src =  'data:image/jpg;base64,' +imgaeSending;
+           });
 
             socket.on('message', (data) => {
                 console.log(data);
