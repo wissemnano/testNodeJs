@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      "opencv4nodejs",
+      "/home/solency/Desktop/wissem/iTesProjects/overhead-camera-people-counter-master"
+    ]
+  ],
+  "_from": "opencv4nodejs@latest",
+  "_hasShrinkwrap": false,
+  "_id": "opencv4nodejs@5.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/opencv4nodejs",
+  "_nodeVersion": "10.16.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/opencv4nodejs_5.1.0_1561744733425_0.49529341289528706"
+  },
+  "_npmUser": {
+    "email": "muehler.v@gmail.com",
+    "name": "justadudewhohacks"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "opencv4nodejs",
+    "raw": "opencv4nodejs",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/opencv4nodejs/-/opencv4nodejs-5.1.0.tgz",
+  "_shasum": "f5a49646da95dc5531d57d58fb61a7312264cdb3",
+  "_shrinkwrap": null,
+  "_spec": "opencv4nodejs",
+  "_where": "/home/solency/Desktop/wissem/iTesProjects/overhead-camera-people-counter-master",
+  "author": {
+    "name": "justadudewhohacks"
+  },
+  "bugs": {
+    "url": "https://github.com/justadudewhohacks/opencv4nodejs/issues"
+  },
+  "dependencies": {
+    "@types/node": ">6",
+    "nan": "^2.14.0",
+    "native-node-utils": "^0.2.7",
+    "opencv-build": "^0.1.4"
+  },
+  "description": "Asynchronous OpenCV 3.x nodejs bindings with JavaScript and TypeScript API.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 345,
+    "integrity": "sha512-x8kkNUznQl00TXyFy3O8I8Jtbqu02KSyPU5s/JBqhWIhBug30PFCYxpj/CZImY6yt8Qf6uxiIN84LBsVA7hk2w==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdFlVeCRA9TVsSAnZWagAABdYQAIxgIE9xp7OAigl1N97v\nqfgLy+F/BFdboiZ6xT/6rPAWzBzeGA7rTZdya9++P5In6k4OyJQIS5oXdCSM\nNhDd1A0FuosR728vwaTCza5E6Dfe4+vGr/bvr6hzsgqcV2SyUz9kvD5vJm0r\nGgTkuObSY5Sf6PxSxdor6e5hiOmoJjyBHh8vmKLbl20Cj/6gnpkN814gPh4s\n0kdBZjKuc4X/neaazJSMpjM03BgAhgmn8O1/6bSSUqjwnAu6PVD/L2b72Nsv\nXjYpKcaMDSGjwITgA0/jq/8GS++mBcuBDMKPXKQX/dEVoVDq6IgEMx2xW+L7\nn9xTLeN8qHlvkJv3EGTZDv/uq1RVGMFj+oSvW79dBGvhpad2V7d6xudVNVRj\nE42OYlHFEPHAp1AVmOhblo7H/bJgXtiZ0aGPUXWrjeOFlWPq+Z23/A3Stk+V\n51zLXTONpx3X71X2KI1CwVt8Pq11et3nd5wcO933flEyirJY2d6MLv2lfWxu\nbCOFW8Zh0REBmOp40BBeWK7y8+Ma9sQszDruu4M4VEcCe+FfndCUKwJT7Lez\nqOJM8DHaCgXcskaZBrF7BMDLE0h643cHZX9wNTMXaqevNAmPnNm6KgngadYq\nCPx81AzXb0SsF5QDMYY/NkLvm2lf0RfG/uvsJBAPSuqi2IDRk9TVP1aXJE5e\ndmfA\r\n=X0OA\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "f5a49646da95dc5531d57d58fb61a7312264cdb3",
+    "tarball": "https://registry.npmjs.org/opencv4nodejs/-/opencv4nodejs-5.1.0.tgz",
+    "unpackedSize": 11314228
+  },
+  "gitHead": "4d585cc0a3baa0e856d7576a1833bb29b0a546bc",
+  "gypfile": true,
+  "homepage": "https://github.com/justadudewhohacks/opencv4nodejs#readme",
+  "keywords": [
+    "async",
+    "computer vision",
+    "cv",
+    "detection",
+    "face",
+    "learning",
+    "machine",
+    "network",
+    "neural",
+    "opencv",
+    "recognition",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "./lib/opencv4nodejs.js",
+  "maintainers": [
+    {
+      "name": "justadudewhohacks",
+      "email": "muehler.v@gmail.com"
+    }
+  ],
+  "name": "opencv4nodejs",
+  "optionalDependencies": {
+    "@types/node": ">6"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justadudewhohacks/opencv4nodejs.git"
+  },
+  "scripts": {
+    "build": "node-gyp configure build --jobs max",
+    "build-debug": "node-gyp rebuild --debug --jobs max",
+    "clean": "node-gyp clean",
+    "configure": "node-gyp configure",
+    "install": "node-gyp rebuild --jobs max",
+    "rebuild": "node-gyp rebuild --jobs max"
+  },
+  "typings": "./lib/index.d.ts",
+  "version": "5.1.0"
+}
