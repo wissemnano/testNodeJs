@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Socket.io</title>
+    </head>
+ 
+    <body>
+        <h1>Communication avec socket.io !</h1>
+        <img src='' width="300" height="400" id="img">
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io.connect('http://localhost:5000');
+            socket.on('image', (image , buffer) =>{
+                if(image){
+                    console.log('image from client side');
+                    var img = document.getElementById('img');
+                    img.src = 'data:image/jpg;base64,' + image.buffer;
+                    //console.log(image);
+                    //console.log(buffer);
+                }
+            });
+        </script>
+    </body>
+</html>
